@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-image: url("../img/vegeta.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.container {
+    padding: 50px;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    background-color: rgba(0, 145, 208, 0.5);
+    width: 100%;
+    max-width: 800px;
+}
+
+.container h2 {
+    font-size: 2.9em;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.container p {
+    font-size: 1.9em;
+    font-weight: 600;
+}
+
+input {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: #F9B431;
+    border-radius: 5px;
+    color: #000;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.container-modal {
+    height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2000;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal {
+    background-color: white;
+    padding: 40px;
+    border: 10px solid rgba(0, 145, 208, 0.5);
+    box-shadow: 0 0 0 10px white;
+    position: relative;
+    max-width: 500px;
+    position: relative;
+}
+
+.fechar {
+    font-size: 30px;
+    border: 4px solid white;
+    background: rgba(0, 145, 208);
+    box-shadow: 0 4px 4px 0 rgba(0, 0, .3);
+    border-radius: 50%;
+    width: 41px;
+    position: absolute;
+    right: 0;
+    top: -31px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.container-modal.ativo {
+    display: flex;
+}
