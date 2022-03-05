@@ -5,6 +5,7 @@ body {
     background-image: url("../img/vegeta.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
 
 .container {
