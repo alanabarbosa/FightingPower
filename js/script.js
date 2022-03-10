@@ -4,8 +4,7 @@ const box2 = document.querySelector('.box_2')
 const box3 = document.querySelector('.box_3')
 const box4 = document.querySelector('.box_4')
 
-btnSubmit.addEventListener('keypress', function(e) {
-    if (e.key == 'Enter'){
+btnSubmit.addEventListener('click', function(e) {
     e.preventDefault();
     const submit = document.querySelector('.submit');
     const value = submit.value;
@@ -32,7 +31,6 @@ btnSubmit.addEventListener('keypress', function(e) {
         box3.style.display = "none"
         box4.style.display = "block"
     }
-}
 })
 
 document.querySelector('.fechar').addEventListener('click', () => {
